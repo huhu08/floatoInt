@@ -4,6 +4,7 @@ fn main() {
     std::mem::transmute(a)                  // <1>
   };
 
+  println!(a);
   println!("{}", frankentype);              // <2>
   println!("{:032b}", frankentype);         // <3>
 
